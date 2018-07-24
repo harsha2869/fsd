@@ -62,7 +62,7 @@
    				</executions>
    				<configuration>
       					<serverId>NexusLocal</serverId>
-      					<nexusUrl>http://localhost:8081/nexus/content/repositories/demo-snapshot/</nexusUrl>
+      					<nexusUrl>http://localhost:8081/nexus/content/repositories/demo-release/</nexusUrl>
       					<skipStaging>true</skipStaging>
    				</configuration>
 			</plugin>
@@ -71,11 +71,11 @@
 	</build>
 	
 	<distributionManagement>
-		<repository>
+		<!--repository>
 			<id>demo-release</id>
 			<name>Releases</name>
 			<url>http://localhost:8081/nexus/content/repositories/demo-release/</url>
-		</repository>
+		</repository-->
 		<snapshotRepository>
 			<id>demo-snapshot</id>
 			<name>Snapshots</name>
