@@ -47,7 +47,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			<plugin>
+			<!--plugin>
    				<groupId>org.sonatype.plugins</groupId>
    				<artifactId>nexus-staging-maven-plugin</artifactId>
    				<version>1.5.1</version>
@@ -65,7 +65,7 @@
       					<nexusUrl>http://localhost:8081/nexus/content/repositories/demo-release/</nexusUrl>
       					<skipStaging>true</skipStaging>
    				</configuration>
-			</plugin>
+			</plugin-->
 		</plugins>
 		
 	</build>
