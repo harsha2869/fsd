@@ -52,12 +52,12 @@
 	
 	<distributionManagement>
 		<repository>
-			<id>releases</id>
+			<id>demo-release</id>
 			<name>Releases</name>
 			<url>http://localhost:8081/repository/demo-release/</url>
 		</repository>
 		<snapshotRepository>
-			<id>snapshots</id>
+			<id>demo-snapshot</id>
 			<name>Snapshots</name>
 			<url>http://localhost:8081/repository/demo-snapshot/</url>
 		</snapshotRepository>
