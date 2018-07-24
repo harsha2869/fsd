@@ -5,7 +5,7 @@
 
 	<groupId>com.example</groupId>
 	<artifactId>demo</artifactId>
-	<version>0.0.8</version>
+	<version>0.0.9</version>
 	<packaging>war</packaging>
 
 	<name>demo</name>
@@ -47,27 +47,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			<!--plugin>
-   				<groupId>org.sonatype.plugins</groupId>
-   				<artifactId>nexus-staging-maven-plugin</artifactId>
-   				<version>1.5.1</version>
-   				<executions>
-      					<execution>
-         					<id>default-deploy</id>
-         					<phase>deploy</phase>
-         					<goals>
-            						<goal>deploy</goal>
-         					</goals>
-      					</execution>
-   				</executions>
-   				<configuration>
-      					<serverId>NexusLocal</serverId>
-      					<nexusUrl>http://localhost:8081/nexus/content/repositories/demo-release/</nexusUrl>
-      					<skipStaging>true</skipStaging>
-   				</configuration>
-			</plugin-->
-		</plugins>
-		
+		</plugins>	
 	</build>
 	
 	<distributionManagement>
