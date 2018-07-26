@@ -5,7 +5,7 @@
 
 	<groupId>com.example</groupId>
 	<artifactId>demo</artifactId>
-	<version>0.0.30</version>
+	<version>0.0.31</version>
 	<packaging>war</packaging>
 
 	<name>demo</name>
@@ -54,7 +54,7 @@
                     		<configuration>
                         		<url>http://localhost:7070</url>
                         		<server>TomcatServer</server>
-                        		<path>/test</path>
+                        		<path>/demotestwebapp</path>
                     		</configuration>
                		</plugin>
 		</plugins>	
